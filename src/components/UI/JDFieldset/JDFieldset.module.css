@@ -1,0 +1,11 @@
+.fieldsetRoot {
+  border: 1px solid #424242;
+  background-color: #242424;
+  padding: 0.625rem 1.25rem 1.25rem;
+  border-radius: 0.25rem;
+  height: fit-content;
+}
+
+.fieldsetLegend {
+  font-size: 0.875rem;
+}
