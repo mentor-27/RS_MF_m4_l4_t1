@@ -1,0 +1,53 @@
+.buttonRoot {
+  display: inline-block;
+  user-select: none;
+  font-weight: 600;
+  position: relative;
+  line-height: 1;
+  text-align: center;
+  overflow: hidden;
+  width: auto;
+  cursor: pointer;
+  border-radius: 0.25rem;
+  font-size: 0.875rem;
+  background: linear-gradient(90deg, #ff4e50, #f9d423);
+  background-position: center;
+  background-size: 200% 100%;
+  border: 1px solid transparent;
+  color: #fff;
+  height: 2.25rem;
+  padding-inline: 1.125rem;
+  vertical-align: middle;
+  transition: background 0.5s;
+
+  &:hover {
+    background-position: 1% 100%;
+  }
+
+  &:active {
+    transform: translateY(1px);
+  }
+
+  &:focus-visible {
+    background-position: 1% 100%;
+    outline: 2px solid #ff804e;
+    outline-offset: 2px;
+  }
+}
+
+.buttonInner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  overflow: visible;
+  transition: transform 0.15s ease, opacity 0.1s ease;
+}
+
+.buttonLabel {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  height: 100%;
+  overflow: hidden;
+}
